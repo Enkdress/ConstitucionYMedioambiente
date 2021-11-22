@@ -13,7 +13,11 @@ function App() {
       <div className="container">
         <Typography.Title level={1}>Servicios ambientales</Typography.Title>
         <Article />
+
+        <Typography.Title level={3}>Evidencias</Typography.Title>
+        <Typography.Title level={5}>Imagenes de la actividad</Typography.Title>
         <CarouselImages />
+        <Typography.Title level={5}>Audios respondiendo las preguntas</Typography.Title>
         <CarouselAudios />
       </div>
     </div>
